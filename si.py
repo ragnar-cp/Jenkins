@@ -1,14 +1,8 @@
-# Simple Interest Program with Predefined Values
+# Simple Interest = (Principal × Rate × Time) / 100
 
-P = 1000  # principal amount
-R = 5     # rate of interest (in %)
-T = 2     # time in years
+principal = float(input("Enter principal amount: "))
+rate = float(input("Enter rate of interest: "))
+time = float(input("Enter time in years: "))
 
-# calculate simple interest
-SI = (P * R * T) / 100
-
-# display the result
-print("Principal:", P)
-print("Rate:", R)
-print("Time:", T)
-print("Simple Interest =", SI)
+simple_interest = (principal * rate * time) / 100
+print("Simple Interest:", simple_interest)
