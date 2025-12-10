@@ -1,4 +1,4 @@
-num = int(input("Enter a number: "))
+num = 23232
 
 # Make a copy of the original number
 temp = num
